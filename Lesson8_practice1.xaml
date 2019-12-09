@@ -1,0 +1,172 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Lesson8_practice1" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="654,696" sap2010:WorkflowViewState.IdRef="Lesson8_practice1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="Lesson8_practice1" sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,107.5 330,107.5 330,304.02</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID0</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">220,114.02</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:Click.CursorPosition>
+          <ui:CursorPosition Position="Center">
+            <ui:CursorPosition.OffsetX>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:CursorPosition.OffsetX>
+            <ui:CursorPosition.OffsetY>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:CursorPosition.OffsetY>
+          </ui:CursorPosition>
+        </ui:Click.CursorPosition>
+        <ui:Click.Target>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+            <ui:Target.TimeoutMS>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:Target.TimeoutMS>
+            <ui:Target.WaitForReady>
+              <InArgument x:TypeArguments="ui:WaitForReady" />
+            </ui:Target.WaitForReady>
+          </ui:Target>
+        </ui:Click.Target>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:Click>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,224.02</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:ClickImageTrigger BlockEvent="{x:Null}" ClippingRegion="{x:Null}" DisplayName="Click Image Trigger 'mstsc.exe 10.123.105.132'" EventType="EVENT_ASYNCHRONOUS" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ClickImageTrigger_1" KeyModifiers="None" MouseButton="BTN_LEFT" Selector="&lt;wnd app='mstsc.exe' cls='TscShellContainerClass' title='10.123.105.132 - Remote Desktop Connection' /&gt;" TriggerMode="TriggerDown">
+        <ui:ClickImageTrigger.Image>
+          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+        </ui:ClickImageTrigger.Image>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ClickImageTrigger>
+    </FlowStep>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">230,304.02</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Pick sap:VirtualizedContainerService.HintSize="518,456" sap2010:WorkflowViewState.IdRef="Pick_1">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <PickBranch sap:VirtualizedContainerService.HintSize="384,410" sap2010:WorkflowViewState.IdRef="PickBranch_1">
+          <PickBranch.Trigger>
+            <ui:ImageFound Found="{x:Null}" DisplayName="Image Exists 'mstsc.exe 10.123.105.132'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ImageFound_1">
+              <ui:ImageFound.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAZCAYAAAB+Sg0DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaeSURBVFhH3dZ5cI1XGMfxzLRqjyRyt1yxFLWmqa0SoaRc1JJIIvYsiKIYZQy1N1qErCQS+77Vrjq1jyWltqhagiR3QRJbUCLWJL/e57nO671xE1T/MP74zE1GzJzvfc57zmvXrFkzkFVz/YDMQcC1MODqQAtTkMXVAPNnVwtDZyBDB6S3Nn82sbjcELj4mZkLCs+r2OMTGtw9okbWQRXS9yjY4qkOcNWUQhX1x9CqPpL4tKqATbEOWBPlyNZOd8Lyn5yx5EdH/j8kcbIT5k1yRPyESlbmjre38uEGzRxrXuQVf8uijV0sDB2kxRfqPRjSG78IqI/Cy9UZUjV4fNbsRQTJPqSGfp8K+h0qnN9iEdix/CsxSuUn+D6kohQiYpaGO0khbxpjFdTHzxNI+8qyaPHNpzWyLP5SA/PPNSwuaTmg4JwSeWdU7MHxKlLE1f3OLG23M1K3aXB6kwbb4p2ZPIZCiMaxLNo0KQ2vxuXQolFZ5vlFGXi4l2aD+1ZkCRMdSgwRpCByN6WuebG1X37z5i1Ei+ctRBMwe3LSBfePaTngRrILyzyg5GkYflPj4nYXdm6zEifWK3B4tQKjQu0ZhVR1ehlCFIpSUDuUYc7OHzNVpdKS6cOd2JvEEKugjXPr8KKfntIy2kK0+HtHNbjzh4rRFESAeDZoW13YquZpUARJXqPEwZWVsW+hCo1rl2VFQ+Qx8gjBu2kZKeR1MdE/OLEPOyi0pztvpZxkJROLp2ciY6+S0bNBAfR80LYipzaopO2VvETJ9i9SY3eSM+99+fNCKKB+jbIsxKcigrtWQFCX8ujXuRzr2akienxTARMGvXnMuAGuzC4wsAeIn58//P0DkDC1E9Yn6di6xHb4JbY91sfosDK6I1sR1QHLZuuwdFY7LIloi0UzvLF3gRKHFyt4GhRBticosGWOEwLaWyLEVMREhgTYMzrJkqZUlk6yoqeZrQA5MRkfnRuz+1t/C+ToWSNOnE1HygUD9Fl6Zsg2sGvX023KvJHBpoRpsSuxMp9kFEHoXqHjt5q2tBQh0HYSCxLHsvwUe9uYCUNV0i6zM95+AlPOU5w8l4FJ83/H5AU7MXP5bkQs34OYVbtY7Ord/Bm9cidbuHEfB12/ZuSgsf2rYHOcI0esjTbfJWarIx34uJWHiBOsi1c5KeRtY0SEEDXOETpvt5dBFJOZk8fToahpS/eheu8E1OgzDzX7JVn5tG8i/5vX4ERpOlk39e9XUOY/Bbh2Lx+phuscdOq8nhddrVe89ClU7TkXVQLj4BEWb7XlRga78k1PEeK2X/Gzgi/JovdKSZT25sPjBXqreF0MGdS9phTDQRQjos5cusLP0KGUNOhGLecA1x5zJBSj8Y/GlwPmSNMhI/ppOYAsm1aZzRpjb3PRxZHHkGlDradkK2Z0/+pWMVZBWfcLcfVWLk6nGuE7cQPqBiWUGCSf0LA+Gn73IvRCSeh0s7VwW4rG0KtQSSHhw5WsefPmUohO157xlrv14Dm7nZuPyHVHUD8kkZ8XeQjRdo+1mpCY0ne91dJbsRA+xN78DVZi4tWHXkKFkcEViiWmYytm2ggVWnk2YyKGwg4kH2N2NBkR8+fFm3APW8QHAD0zIoZCXAJimK0t914FiZichwVoEJqEWkHzpa0mJqLxmY4hERuh7TYTSt/Z8BoYwyFiSkN7qfhyFBekQJfku9wvRdF909KjqRQibN26DXlPC5mdiKHPesGWo1r+vLj4zsD0JTuRmmZE9cAo/l2+5W7evIywni68eHmMrZDXxdiKoGOZfBtY65UQsmrVaimGg0TMOUOOdM+ILUaTGRO3BRfTTcjI0LP4dfvRJCQGJpOJg25kmqQgMZH/K4ZOsXYtmzJ5hKdnC7Z9+69WMRxEMeREWo5071CQ2i8KXcYsQ+7jfNy6mwu93vxKZEZRTUNj+WeDwcg6tq6DyNHq/xRCRICYBl3U7b/+3CpC8PHxxfGUs6xojBREUyLiIKAY2loPnxTwH8mD5IwGE0zGK+9XkIi5n/dMenZEkNUf5z1i2dnXrYKMRhPc3CyvHt7ejXivk0nDNIgc64i48ZUksTaEj1RgZKgr/DrVg6dHE1Y0gni2aIEZEZG4cScXuU9RLA6imAePnmPRjhQppmFQnFXQs2fPJRSWlZnNMfKg4rRt7c46tHVjXp62F23LhMlTWbopy2ZAUXYihtDzQlF0GMgnJI8h+c8LkJ9fgIe5eczXt5vVrf2u2nh7Y9LUcPx1/rLNRRcP+Be0U9LDimgrBwAAAABJRU5ErkJggg==" />
+              </ui:ImageFound.Image>
+              <ui:ImageFound.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='mstsc.exe' cls='TscShellContainerClass' title='10.123.105.132 - Remote Desktop Connection' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:ImageFound.Target>
+            </ui:ImageFound>
+          </PickBranch.Trigger>
+          <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_DOUBLE" DisplayName="Double Click Image" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+            <ui:ClickImage.CursorPosition>
+              <ui:CursorPosition Position="Center">
+                <ui:CursorPosition.OffsetX>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetX>
+                <ui:CursorPosition.OffsetY>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetY>
+              </ui:CursorPosition>
+            </ui:ClickImage.CursorPosition>
+            <ui:ClickImage.Image>
+              <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+            </ui:ClickImage.Image>
+            <ui:ClickImage.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='mstsc.exe' cls='TscShellContainerClass' title='10.123.105.132 - Remote Desktop Connection' /&gt;">
+                <ui:Target.TimeoutMS>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:Target.TimeoutMS>
+                <ui:Target.WaitForReady>
+                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                </ui:Target.WaitForReady>
+              </ui:Target>
+            </ui:ClickImage.Target>
+          </ui:ClickImage>
+        </PickBranch>
+      </Pick>
+    </FlowStep>
+  </Flowchart>
+</Activity>
